@@ -1,8 +1,10 @@
-# 20.440 Problem Set 4 Repository
-This is a repository containing single cell RNA seq dataset and corresponding python scripts for analysis of gene expression patterns. 
+# Single Cell RNA-Seq Analysis (20440_Pset4)
+This is a repository containing single cell RNA seq dataset and corresponding python scripts for analysis of gene expression patterns. The purpose of this repo is to analyze the differential gene expression across different cell types and utilize gene expression profiles to classify cell types and inform key driver genes to influence cell type transition. 
 
 # Data
-The data is stored in the Data sub-directory, where a csv file named rna_single_cell_type.csv contains the gene expression count for all genes across 34 cell types. The data is obtained from the human protein atlas (https://www.proteinatlas.org/about/download)
+The data used in this repo is obtained from the human protein atlas (https://www.proteinatlas.org/download/rna_single_cell_type.tsv.zip). The data contains transcript expression levels summarized per gene in 76 cell types from 26 datasets. The data is store in the csv format, which includes Ensembl gene identifier ("Gene"), gene name ("Gene name"), analysed sample ("Cell type") and normalized expresion ("nTPM"). 
+The data is stored in the Data sub-directory, where a csv file named rna_single_cell_type.csv contains the gene expression count for all genes across 34 cell types. 
+
 # Folder Structure 
 The master folder contains the README file, installation files, github attribute files and sub-folders. There are three sub folers named Data, Figure and Code. Data Folder Contains the csv file for the rna single cell gene expression data. Code folder contains the analysis code to reproduce the figure. Figure folder stores the output figure files. 
 # Installation 
