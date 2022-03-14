@@ -1,5 +1,5 @@
 # Computational discovery of cell reprogramming path (20.440_Pset4)
-This is a repository containing single cell RNA seq dataset and corresponding python scripts for analysis of gene expression patterns. The purpose of this repo is to analyze the differential gene expression across different cell types and utilize gene expression profiles to classify cell types and inform key driver genes to influence cell type transition. 
+This is a repository containing single cell RNA seq dataset and corresponding python scripts for analysis of gene expression patterns. The purpose of this repo is to analyze the differential gene expression across different cell types and utilize gene expression profiles to classify cell types and inform key driver genes to influence cell type transition. Visulization of data is based on Seaborn package.(https://seaborn.pydata.org/)
 
 # Data
 The data used in this repo is obtained from the human protein atlas (https://www.proteinatlas.org/download/rna_single_cell_type.tsv.zip). The data contains transcript expression levels summarized per gene in 76 cell types from 26 datasets. The data is store in the csv format, which includes Ensembl gene identifier ("Gene"), gene name ("Gene name"), analysed sample ("Cell type") and normalized expresion ("nTPM"). 
