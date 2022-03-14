@@ -1,4 +1,4 @@
-# Single Cell RNA-Seq Analysis (20440_Pset4)
+# Computational discovery of cell reprogramming path (20.440_Pset4)
 This is a repository containing single cell RNA seq dataset and corresponding python scripts for analysis of gene expression patterns. The purpose of this repo is to analyze the differential gene expression across different cell types and utilize gene expression profiles to classify cell types and inform key driver genes to influence cell type transition. 
 
 # Data
